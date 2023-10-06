@@ -1,0 +1,225 @@
+<html>
+<title>JustCut</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/123/index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="\123\login.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> LOGIN</a>
+    <a href="/123/register.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> REGISTER</a>
+    <a href="\123\add1.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> ADD</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+
+
+
+  </div>
+</div>
+<br><br><br>
+
+<form action="add1.php" class = "container" method="post" enctype="multipart/form-data">
+  <h3> Add Your Shop </h3>
+ Shop Name:<br>  
+  <input type="text" name="firstname" id ="firstname" >
+  <br>
+  
+
+  Surname:<br>
+  <input type="text" name="surname" >
+  <br>
+  
+   county:<br>
+<select  name="detail" id="detail" required>
+  <option value="Antrim">Antrim</option>
+  <option value="Armagh">Armagh</option>
+  <option value="Carlow">Carlow</option>
+  <option value="Cavan">Cavan</option>
+  <option value="Clare">Clare</option>
+  <option value="Cork">Cork</option>
+  <option value="Derry">Derry</option>
+  <option value="Donegal">Donegal</option>
+  <option value="Down">Down</option>
+  <option value="Dublin">Dublin</option>
+  <option value="Fermanagh">Fermanagh</option>
+  <option value="Galway">Galway</option>
+  <option value="Kerry">Kerry</option>
+  <option value="Kildare">Kildare</option>
+  <option value="Kilkenny">Kilkenny</option>
+  <option value="Laois">Laois</option>
+  <option value="Leitrim">Leitrim</option>
+  <option value="Limerick">Limerick</option>
+  <option value="Longford">Longford</option>
+  <option value="Louth">Louth</option>
+  <option value="Mayo">Mayo</option>
+  <option value="Meath">Meath</option>
+  <option value="Monaghan">Monaghan</option>
+  <option value="Offaly">Offaly</option>
+  <option value="Roscommon">Roscommon</option>
+  <option value="Sligo">Sligo</option>
+  <option value="Tipperary">Tipperary</option>
+  <option value="Tyrone">Tyrone</option>
+  <option value="Waterford">Waterford</option>
+  <option value="Westmeath">Westmeath</option>
+  <option value="Wexford">Wexford</option>
+  <option value="Wicklow">Wicklow</option>
+  </select><br><br>
+  
+   address:<br>
+  <input type="text" name="address" >
+  <br>
+  
+   phone:<br>
+  <input type="number" name="phone" >
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="add2.php" method="post">
+Monday
+<div class="formElement"><label>Opening hours</label>
+<input type="time" name="mondayopen" id="mondayopen" placeholder="9" autocomplete=off required/>
+
+
+<label>Closing hours</label>
+<input type="time" name="mondayclose" id="mondayclose" placeholder="5" autocomplete=off required/><br><br>
+</div>
+
+
+
+
+
+Tuesday
+<div class="formElement"><label>Opening hours</label>
+<input type="time" name="tuesdayopen" id="tuesdayopen" placeholder="9" autocomplete=off required/>
+
+
+<label>Closing hours</label>
+<input type="time" name="tuesdayclose" id="tuesdayclose" placeholder="5" autocomplete=off required/><br><br>
+</div>
+
+
+
+
+Wednesday
+<div class="formElement"><label>Opening hours</label>
+<input type="time" name="wednesdayopen" id="wednesdayopen" placeholder="9" autocomplete=off required/>
+
+
+<label>Closing hours</label>
+<input type="time" name="wednesdayclose" id="wednesdayclose" placeholder="5" autocomplete=off required/><br><br>
+</div>
+
+
+
+
+
+
+
+
+
+Thursday
+<div class="formElement"><label>Opening hours</label>
+<input type="time" name="thursdayopen" id="thursdayopen" placeholder="9" autocomplete=off required/>
+
+
+<label>Closing hours</label>
+<input type="time" name="thursdayclose" id="thursdayclose" placeholder="5" autocomplete=off required/><br><br>
+</div>
+
+
+
+
+
+
+Friday
+<div class="formElement"><label>Opening hours</label>
+<input type="time" name="fridayopen" id="fridayopen" placeholder="9" autocomplete=off required/>
+
+
+<label>Closing hours</label>
+<input type="time" name="fridayclose" id="fridayclose" placeholder="5" autocomplete=off required/><br><br>
+</div>
+
+
+
+
+Saturday
+<div class="formElement"><label>Opening hours</label>
+<input type="time" name="saturdayopen" id="saturdayopen" placeholder="9" autocomplete=off required/>
+
+
+<label>Closing hours</label>
+<input type="time" name="saturdayclose" id="saturdayclose" placeholder="5" autocomplete=off required/><br><br>
+</div>
+
+
+
+
+Sunday
+<div class="formElement"><label>Opening hours</label>
+<input type="time" name="sundayopen" id="sundayopen" placeholder="9" autocomplete=off required/>
+
+
+<label>Closing hours</label>
+<input type="time" name="sundayclose" id="sundayclose" placeholder="5" autocomplete=off required/><br><br>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Select image to upload:
+  <input type="file" name="files[]" id="files" multiple>
+  <br>
+  <br><br>
+  <input type="submit" value="Upload Shop" name="submit">
+  
+
+</form> 
+</html>

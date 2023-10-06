@@ -1,0 +1,11 @@
+
+
+@font-face
+{
+	font-family: authenia
+	src:url ("authenia.otf")
+}
+#main
+{
+	font-family: authenia
+}
